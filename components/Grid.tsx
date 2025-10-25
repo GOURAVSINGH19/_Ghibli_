@@ -1,6 +1,4 @@
 'use client'
-import { useState } from "react";
-import DisplayCards from "./ui/Card";
 import Sidenav from "./Sidenav";
 
 
@@ -15,7 +13,7 @@ export default function Grid() {
                 <div
                     className="group min-h-[24rem] relative  p-6  cursor-pointer overflow-hidden border-b-1 md:border-b-0 border-[var(--bg-light)]"
                 >
-                    <DisplayCards />
+                  card
                 </div>
             </div>
         </div>

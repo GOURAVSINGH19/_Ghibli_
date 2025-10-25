@@ -1,2 +1,2 @@
 export * from './ui';
-export { cn } from '../utils/cn';
+export { cn } from '../lib/utils';
